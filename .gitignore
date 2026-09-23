@@ -1,0 +1,45 @@
+# macOS metadata
+.DS_Store
+**/.DS_Store
+._*
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+
+# Local credentials and machine-specific configuration
+**/config
+!**/config.example
+.env
+.env.*
+!.env.example
+*.keychain
+*.keychain-db
+*.p12
+*.pfx
+
+# Runtime state, locks, and logs
+**/retry.state
+**/python.path
+**/paused
+**/monitor.lock
+**/.paused.*
+**/.retry.*
+*.log
+*.log.[0-9]*
+**/logs/*
+!**/logs/.gitkeep
+
+# Packet captures and HTTP debugging exports
+*.pcap
+*.pcapng
+*.cap
+*.har
+*.saz
+
+# Editor and temporary files
+*.swp
+*.swo
+*.tmp
+*.temp
+*~

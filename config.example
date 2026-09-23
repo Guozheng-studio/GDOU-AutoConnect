@@ -1,0 +1,6 @@
+# 仅保存非敏感设置。复制安装时由 install.command 生成 config。
+# 不要在这里填写密码，也不要将本文件作为 Shell 脚本执行。
+username=YOUR_CAMPUS_ACCOUNT
+ssid=GDOU.NET
+check_interval=30
+auth_min_interval=60
